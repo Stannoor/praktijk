@@ -1,0 +1,174 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background-color: #333;
+    height: 150px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+
+nav {
+    background-color: #444;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: left;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Hoofdinhoud */
+#content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#div1 {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+#div2 {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Basisstijl voor het hele formuliersectie */
+#admin {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+
+  input[type="text"],
+  input[type="date"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Stijl voor de verzendknop */
+  input[type="submit"] {
+    background-color: black;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: grey;
+  }
+  
+
+  label + input[type="text"],
+  label + input[type="date"],
+  label + textarea {
+    margin-top: 10px;
+  }
+
+  h3 { 
+    text-align: center;
+  }
+
+  #scrollToTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgb(34, 34, 35);
+    color: #ffffff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    display: none;
+  }
+  
+  #scrollToTop a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  
+  #scrollToTop:hover {
+    background-color: grey;
+  }
+
+  #leesmeer  {
+    font-weight: bold;
+    color: blue;        
+    text-decoration: none; 
+}
+ 
+#terug  {
+  font-weight: bold;
+  color: blue;        
+  text-decoration: none; 
+}
+
+.custom-button {
+  background-color: black;
+  color: #fff; 
+  border: none; 
+  padding: 10px 20px; 
+  border-radius: 5px;
+  cursor: pointer; 
+  transition: background-color 0.3s, color 0.3s; 
+}
+
+
+.custom-button:hover {
+  background-color: grey;
+  color: #fff; 
+}
